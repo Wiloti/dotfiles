@@ -1,0 +1,45 @@
+[general]
+import = ["~/.config/alacritty/bindings/bindings.toml",
+	  "~/.config/alacritty/themes/dragon.toml"
+]
+
+[env]
+term = "xterm-256color"
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+
+[scrolling]
+history = 50000
+multiplier = 4
+
+[font]
+size = 17.25
+normal = { family = "JetBrainsMono", style = "Regular"}
+bold = { family = "JetBrainsMono", style = "Bold"}
+italic = { family = "JetBrainsMono", style = "Italic"}
+bold_italic = { family = "JetBrainsMono", style = "Bold Italic"}
+
+[cursor]
+blink_interval = 800
+blink_timeout = 10
+unfocused_hollow = true
+
+[cursor.style]
+shape = "Underline"
+blinking = "Always"
+
+[mouse]
+hide_when_typing = true
+
+[selection]
+save_to_clipboard = true
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+persist = false
+mouse.enabled = true
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"

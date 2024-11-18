@@ -1,0 +1,21 @@
+# [keyboard]
+# bindings = [
+# { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+# { key = "L", mods = "Control|Shift", chars = "l" },
+# ]
+
+[keyboard]
+
+bindings = [ { Key = "c", mods = "Super", action = "Copy" },
+	     { Key = "v", mods = "Super", action = "Paste" },
+	     { Key = "9", mods = "Super", action = "IncreaseFontSize" },
+	     { Key = "0", mods = "Super", action = "DecreaseFontSize" },
+	     { Key = "1", mods = "Super", action = "ResetFontSize" },
+	     { Key = "u", mods = "Super", action = "ScrollPageUp" },
+	     { Key = "U", mods = "Super|Shift", action = "ScrollToTop" },
+	     { Key = "d", mods = "Super", action = "ScrollPageDown" },
+	     { Key = "D", mods = "Super|Shift", action = "ScrollToBottom" },
+	     { Key = "m", mods = "Super", action = "Minimize" },
+	     { Key = "w", mods = "Super", action = "Quit" },
+	     { Key = "n", mods = "Super", action = "CreateNewWindow" }
+]

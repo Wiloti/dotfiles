@@ -1,0 +1,42 @@
+[colors]
+transparent_background_colors = true
+line_indicator = { foreground = "#dcd7ba", background = "#363646" }
+
+[colors.primary]
+foreground = "#dcd7ba"
+background = "#16161d"
+
+[colors.normal]
+black = "#12120f"
+red = "#c4746e"
+green = "#87a987"
+yellow = "#c0a36e"
+blue = "#7fB4ca"
+magenta = "#e46876"
+cyan = "#a3d4d5"
+white = "#dcd7ba"
+
+[colors.dim]
+black = "#0e0e0c"
+red = "#9b5c59"
+green = "#6f8a6f"
+yellow = "#9a8559"
+blue = "#658ea2"
+magenta = "#b3525e"
+cyan = "#83a9a9"
+white = "#b3ae95"
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.selection]
+text = "#2d4f67"
+background = "#c8c093"
+
+[colors.search]
+matches = { foreground = "CellBackground", background = "#dcd7ba" }
+focused_match = { foreground = "CellBackground", background = "#e46876"}
+
+[colors.footer_bar]
+foreground = "#dcd7ba"
+background = "#1a1a22"
